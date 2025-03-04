@@ -1,0 +1,14 @@
+[Unit]
+Description=Fastfetch in web
+After=network.target
+
+[Service]
+Type=simple
+User=ensomnatt
+WorkingDirectory=/opt/webfetch
+ExecStart=/opt/webfetch/webfetch
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi.user.target

@@ -20,5 +20,6 @@ you're right, you can use these in your custom frontend to display system info.
 currently, you can change one thing in the backend: the port.  
 to change it, go to the your config directory,
 open a *config.toml* file and set the port **with a colon**:
-- "4242" - **!!!!!!WRONG!!!!!!**  
-- ":4242" - **yeah sweety, good boy :3** 
+
+"4242" - **!!!!!!WRONG!!!!!!**  
+":4242" - **yeah sweety, good boy :3** 

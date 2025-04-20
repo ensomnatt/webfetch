@@ -4,21 +4,21 @@
 
 ### Frontend
 
-**webfetch uses the user's frontend**.
-it has basic frontend on the start, but the users can write their own frontends.
+**webfetch uses your custom frontend**.
+it comes with a basic frontend by default, but you can write your own one.
 
-**how to write my own frontend?** 
-you need to go to the your config directory (e.g. ~/.config) and just write what you want.  
-in the *index.html* you can find a lines like a {{.Platform}} - yeah, you're right,
-you should add these lines in the your frontend.
+**how do i write my own frontend?**   
+go to the your config directory (e.g., ~/.config/webfetch) and create the frontend files
+you want.  
+in *index.html* you'll find placeholders like a {{.Platform}}.
+you're right, you can use these in your custom frontend to display system info.
 
-**note: you can't use typescript, only javascript** 
+**note: you can't use typescript, only javascript is supported** 
 
 ### Backend
 
-today you can change only one thing in the backend, it's a port.
-to change port you need to go to the your config directory,
-find a *config.toml* file, open it and change the port number **with a :**  
-
-"4242" - **WRONG!!!!!!**  
-":4242" - **yeah sweety :3** 
+currently, you can change one thing in the backend: the port.  
+to change it, go to the your config directory,
+open a *config.toml* file and set the port **with a colon**:
+- "4242" - **!!!!!!WRONG!!!!!!**  
+- ":4242" - **yeah sweety, good boy :3** 

@@ -13,4 +13,4 @@ git clone https://github.com/ensomnatt/webfetch && cd webfetch && ./install.sh
 
 ## After install
 
-see the [[https://github.com/ensomnatt/webfetch/blob/master/docs/DOCS.md | docs]] for more information about webfetch
+see the [docs](https://github.com/ensomnatt/webfetch/blob/master/docs/DOCS.md) for more information about webfetch

@@ -10,7 +10,7 @@ it has basic frontend on the start, but the users can write their own frontends.
 **how to write my own frontend?** 
 you need to go to the your config directory (e.g. ~/.config) and just write what you want.  
 in the *index.html* you can find a lines like a {{.Platform}} - yeah, you're right,
-you should add this lines in the your frontend.
+you should add these lines in the your frontend.
 
 **note: you can't use typescript, only javascript** 
 

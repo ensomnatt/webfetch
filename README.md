@@ -2,7 +2,7 @@
 
 ## Description
 
-webfetch is a programm that shows your system info in the web as a systemd unit.
+webfetch is a program that shows your system info in the web as a systemd unit.
 it can be use for a servers or personal computers just for fun.
 
 ## Installation

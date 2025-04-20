@@ -16,6 +16,6 @@ git clone https://github.com/ensomnatt/webfetch && cd webfetch && ./install.sh
 see the [docs](https://github.com/ensomnatt/webfetch/blob/master/docs/DOCS.md)
 for more information about webfetch
 
-##From me 
+## From me 
 
 i'd like to see some feedback, maybe some PR's, issues...

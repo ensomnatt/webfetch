@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 APP_DIRECTORY=/opt/webfetch
 SYSTEMD_DIRECTORY=/etc/systemd/system

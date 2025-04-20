@@ -31,15 +31,16 @@ type Data struct {
 	RAMUsage string
 }
 
-func NewServer(addr string) *Server {
+func NewServer() *Server {
 	r := http.NewServeMux()
+	cfg := config.NewConfig()
 	return &Server{
 		r: r,
+		cfg: cfg,
 		srv: http.Server{
-			Addr: addr,
+			Addr: cfg.Port,
 			Handler: r,
 		},
-		cfg: config.NewConfig(),
 	}
 }
 

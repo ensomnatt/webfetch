@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	app := server.NewServer(":6969")
+	app := server.NewServer()
 	logrus.Info("server started")
 	err := app.Start()
 	if err != nil {

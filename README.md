@@ -1,6 +1,6 @@
 # Webfetch
 
-[demo](assets/webfetch-demo.png)
+![demo](assets/webfetch-demo.png)
 
 ## Description
 

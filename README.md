@@ -1,5 +1,7 @@
 # Webfetch
 
+[demo](assets/webfetch-demo.png)
+
 ## Description
 
 webfetch is a program that displays your system information on the web, running
